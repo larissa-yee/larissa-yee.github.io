@@ -11,11 +11,10 @@ body {
 }
 
 .container {
-    text-align: center; /* Center align the text within the container */
+    text-align: left; /* Center align the text within the container */
     max-width: 800px; /* Maximum width of the container */
     padding: 20px; /* Padding inside the container */
     background-color: #f0eae4; /* Background color of the container */
-    border: 1px solid #ccc; /* Optional: Border for clarity */
     border-radius: 8px; /* Optional: Rounded corners for the container */
 }
 
@@ -23,6 +22,8 @@ h1 {
     color: #333; /* Text color for the header */
     font-family: monospace; /* Font family for the header */
     margin: 0; /* Remove default margin */
+    text-align: center;
+    flex: 1;
 }
 
 p {
@@ -32,8 +33,9 @@ p {
 
 .name-with-icon {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center; /* Center the items horizontally */
+    margin-bottom: 20px;
 }
 
 .icon {
