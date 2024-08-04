@@ -16,7 +16,7 @@ html, body {
     border-radius: 8px; /* Rounded corners for the container */
     text-align: left;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for a subtle 3D effect */
-    transform: scale(0.9); /* Adjust the scale to make the container smaller */
+    transform: scale(0.95); /* Adjust the scale to make the container smaller */
     transform-origin: center; /* Ensures the container scales from the center */
 }
 
