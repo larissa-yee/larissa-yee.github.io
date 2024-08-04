@@ -10,7 +10,8 @@ html, body {
 }
 
 .container {
-    max-width: 60%; /*800px*/
+    max-width: 100%; /*800px*/
+    max-width: 800px;
     padding: 20px;
     background-color: #ffffff; /* White background for the container */
     border-radius: 8px; /* Rounded corners for the container */
@@ -19,6 +20,7 @@ html, body {
     transform: scale(0.85); /* Adjust the scale to make the container smaller */
     transform-origin: center; /* Ensures the container scales from the center */
     margin: 0 10px;
+    box-sizing: border-box;
 }
 
 .header {
@@ -34,6 +36,7 @@ html, body {
     font-size: 2em;
     color: #333; /* Dark text color */
     font-family: "Playwrite GB S", cursive;
+    flex: 1;
 }
 
 .header .koi-icon {
@@ -91,5 +94,27 @@ a:hover {
 
     .social-icons .social-icon img {
         width: 20px; /* Smaller icons on very small screens */
+    }
+}
+
+@media (max-width: 400px) {
+    .header h1 {
+        font-size: 1em; /* Further reduce font size on very small screens */
+    }
+
+    .header .koi-icon {
+        width: 30px; /* Even smaller icon on very small screens */
+    }
+
+    p {
+        font-size: 0.8em; /* Further reduce font size for very small screens */
+    }
+
+    .social-icons {
+        gap: 2px; /* Minimal space between icons on very small screens */
+    }
+
+    .social-icons .social-icon img {
+        width: 15px; /* Even smaller icons on very small screens */
     }
 }
