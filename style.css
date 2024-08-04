@@ -5,12 +5,12 @@ html, body {
     display: flex;
     align-items: center; /* Vertically center the container */
     justify-content: center; /* Horizontally center the container */
-    background-color: rgb(0, 102, 102);
-   /* background-color: #f4f4f4; /* Light background color */
+    /*background-color: rgb(0, 102, 102); */
+    background-color: #f4f4f4; /* Light background color */
 }
 
 .container {
-    max-width: 800px;
+    max-width: 600px;
     padding: 20px;
     background-color: #ffffff; /* White background for the container */
     border-radius: 8px; /* Rounded corners for the container */
