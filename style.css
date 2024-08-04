@@ -28,11 +28,11 @@ html, body {
     margin: 0;
     font-size: 2em;
     color: #333; /* Dark text color */
-    font-family: "Nunito", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 .header .icon img {
-    width: 80px; /* Size of the right-aligned icon */
+    width: 60px; /* Size of the right-aligned icon */
     height: auto;
 }
 
