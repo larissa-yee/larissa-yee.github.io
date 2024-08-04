@@ -7,15 +7,18 @@ html, body {
     justify-content: center; /* Horizontally center the container */
     /*background-color: rgb(0, 102, 102); */
     background-color: #f4f4f4; /* Light background color */
+    overflow: hidden;
 }
 
 .container {
-    max-width: 600px;
+    max-width: 800px;
     padding: 20px;
     background-color: #ffffff; /* White background for the container */
     border-radius: 8px; /* Rounded corners for the container */
     text-align: left;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for a subtle 3D effect */
+    transform: scale(0.8); /* Adjust the scale to make the container smaller */
+    transform-origin: center; /* Ensures the container scales from the center */
 }
 
 .header {
