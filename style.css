@@ -54,24 +54,13 @@ p {
 }
 
 /* General link styles */
-a {
-    color: #ff7300; /* Default color for links */
+a{
+    color: #ffaa00; /* Default color for links */
     text-decoration: none; /* Remove underline from links */
-    transition: color 0.3s ease; /* Smooth color transition */
 }
 
 /* Link color when hovered */
 a:hover {
     color: #ffbc1e; /* Color when the mouse is over the link */
     text-decoration: underline; /* Underline on hover for better visibility */
-}
-
-/* Link color after it has been visited */
-a:visited {
-    color: #6f42c1; /* Color after the link is visited */
-}
-
-/* Link color while being clicked */
-a:active {
-    color: #ff5722; /* Color when the link is being clicked */
 }
