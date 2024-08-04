@@ -3,8 +3,8 @@ html, body {
     margin: 0;
     font-family: Arial, sans-serif;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center; /* Vertically center the container */
+    justify-content: center; /* Horizontally center the container */
     background-color: #f4f4f4; /* Light background color */
 }
 
@@ -15,6 +15,7 @@ html, body {
     border: 1px solid #ddd; /* Light border for the container */
     border-radius: 8px; /* Rounded corners for the container */
     text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for a subtle 3D effect */
 }
 
 .header {
