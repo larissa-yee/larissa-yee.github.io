@@ -5,8 +5,10 @@ html, body {
     display: flex;
     align-items: center; /* Vertically center the container */
     justify-content: center; /* Horizontally center the container */
-    background-color: #f4f4f4; /* Light background color */
-    /*overflow: hidden; */
+    background-color: rgb(220, 253, 253); 
+    /* background-color: #f4f4f4; /* Light background color 
+    /*background-color: rgb(220, 255, 255); */
+    overflow: hidden; 
 }
 
 .container {
@@ -16,7 +18,7 @@ html, body {
     border-radius: 8px; /* Rounded corners for the container */
     text-align: left;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for a subtle 3D effect */
-    transform: scale(0.9); /* Adjust the scale to make the container smaller */
+    transform: scale(0.85); /* Adjust the scale to make the container smaller */
     transform-origin: center; /* Ensures the container scales from the center */
 }
 
@@ -31,10 +33,11 @@ html, body {
     margin: 0;
     font-size: 2em;
     color: #333; /* Dark text color */
+    font-family: "Playwrite GB S", cursive;
 }
 
-.header .icon img {
-    width: 60px; /* Size of the right-aligned icon */
+.header .koi-icon {
+    width: 70px; /* Size of the right-aligned icon */
     height: auto;
 }
 
@@ -58,12 +61,11 @@ p {
 
 /* General link styles */
 a{
-    color: #ff8345; /* Default color for links */
+    color: #ff894e; /* Default color for links */
     text-decoration: none; /* Remove underline from links */
 }
 
 /* Link color when hovered */
 a:hover {
-    color: #ff6200; /* Color when the mouse is over the link */
     text-decoration: underline; /* Underline on hover for better visibility */
 }
