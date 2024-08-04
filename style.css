@@ -32,7 +32,7 @@ html, body {
 }
 
 .header .icon img {
-    width: 100px; /* Size of the right-aligned icon */
+    width: 80px; /* Size of the right-aligned icon */
     height: auto;
 }
 
