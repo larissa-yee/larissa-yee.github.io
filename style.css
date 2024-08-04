@@ -6,13 +6,11 @@ html, body {
     align-items: center; /* Vertically center the container */
     justify-content: center; /* Horizontally center the container */
     background-color: rgb(220, 253, 253); 
-    /* background-color: #f4f4f4; /* Light background color 
-    /*background-color: rgb(220, 255, 255); */
     overflow: hidden; 
 }
 
 .container {
-    max-width: 800px;
+    max-width: 60%; /*800px*/
     padding: 20px;
     background-color: #ffffff; /* White background for the container */
     border-radius: 8px; /* Rounded corners for the container */
@@ -20,6 +18,7 @@ html, body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for a subtle 3D effect */
     transform: scale(0.85); /* Adjust the scale to make the container smaller */
     transform-origin: center; /* Ensures the container scales from the center */
+    margin: 0 10px;
 }
 
 .header {
@@ -27,6 +26,7 @@ html, body {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 
 .header h1 {
@@ -44,7 +44,7 @@ html, body {
 p {
     font-size: 1.1em;
     line-height: 1.6;
-    color: #666; /* Slightly lighter text color for paragraph */
+    color: #4e4e4e; /* Slightly lighter text color for paragraph */
     margin: 0 0 20px 0; /* Margin at the bottom only */
 }
 
@@ -52,6 +52,7 @@ p {
     display: flex;
     justify-content: center;
     gap: 15px; /* Space between icons */
+    flex-wrap: wrap;
 }
 
 .social-icons .social-icon img {
@@ -68,4 +69,27 @@ a{
 /* Link color when hovered */
 a:hover {
     text-decoration: underline; /* Underline on hover for better visibility */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+    .header h1 {
+        font-size: 1.2em; /* Smaller font size on very small screens */
+    }
+
+    .header .koi-icon {
+        width: 40px; /* Smaller icon on very small screens */
+    }
+
+    p {
+        font-size: 0.9em; /* Slightly smaller font size */
+    }
+
+    .social-icons {
+        gap: 5px; /* Even smaller space between icons on very small screens */
+    }
+
+    .social-icons .social-icon img {
+        width: 20px; /* Smaller icons on very small screens */
+    }
 }
