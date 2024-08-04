@@ -1,7 +1,7 @@
 html, body {
     height: 100%;
     margin: 0;
-    font-family: "Inter", sans-serif;
+    font-family: "Nunito", sans-serif;
     display: flex;
     align-items: center; /* Vertically center the container */
     justify-content: center; /* Horizontally center the container */
@@ -22,6 +22,7 @@ html, body {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 20px;
+    font-family: "Nunito Sans", sans-serif;
 }
 
 .header h1 {
@@ -31,7 +32,7 @@ html, body {
 }
 
 .header .icon img {
-    width: 40px; /* Size of the right-aligned icon */
+    width: 80px; /* Size of the right-aligned icon */
     height: auto;
 }
 
