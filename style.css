@@ -55,12 +55,12 @@ p {
 
 /* General link styles */
 a{
-    color: #ff8000; /* Default color for links */
+    color: #ff6200; /* Default color for links */
     text-decoration: none; /* Remove underline from links */
 }
 
 /* Link color when hovered */
 a:hover {
-    color: #ff8000; /* Color when the mouse is over the link */
+    color: #ff6200; /* Color when the mouse is over the link */
     text-decoration: underline; /* Underline on hover for better visibility */
 }
