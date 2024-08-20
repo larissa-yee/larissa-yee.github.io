@@ -47,7 +47,7 @@ html, body {
 p {
     font-size: 1.1em;
     line-height: 1.6;
-    color: #4e4e4e; /* Slightly lighter text color for paragraph */
+    color: #3d3d3d; /* Slightly lighter text color for paragraph */
     margin: 0 0 20px 0; /* Margin at the bottom only */
 }
 
@@ -65,7 +65,7 @@ p {
 
 /* General link styles */
 a{
-    color: #ff894e; /* Default color for links */
+    color: #ff661a; /* Default color for links */
     text-decoration: none; /* Remove underline from links */
 }
 
